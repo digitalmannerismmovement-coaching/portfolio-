@@ -8,7 +8,7 @@
   <meta property="og:description" content="Helping families thrive with emotional intelligence and identity-based transformation. Endorsed by doctors, lawyers, and fellow coaches." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://digitalmannerismmovement-coaching.github.io/portfolio/" />
-  <meta property="og:image" content="https://digitalmannerismmovement-coaching.github.io/portfolio/og-preview.svg" />
+  <meta property="og:image" content="https://digitalmannerismmovement-coaching.github.io/portfolio/og-preview.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -18,17 +18,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --teal-deep:  #0d4a4a;
-      --teal-mid:   #1a6b6b;
+      --teal-deep: #0d4a4a;
+      --teal-mid: #1a6b6b;
       --teal-light: #e6f4f4;
-      --gold:       #c8a96e;
+      --gold: #c8a96e;
       --gold-light: #e8d5a8;
-      --white:      #fdfcf9;
-      --ink:        #1c2626;
-      --muted:      #6b8080;
-      --card-bg:    #ffffff;
+      --white: #fdfcf9;
+      --ink: #1c2626;
+      --muted: #6b8080;
+      --card-bg: #ffffff;
       --serif: 'Cormorant Garamond', Georgia, serif;
-      --sans:  'DM Sans', sans-serif;
+      --sans: 'DM Sans', sans-serif;
       --max-w: 900px;
       --gap: 96px;
     }
@@ -43,9 +43,9 @@
     .fade-in { opacity: 0; transform: translateY(28px) scale(0.98); transition: opacity 0.75s cubic-bezier(0.22,1,0.36,1), transform 0.75s cubic-bezier(0.22,1,0.36,1); }
     .fade-in.visible { opacity: 1; transform: translateY(0) scale(1); }
     .hero { background: var(--teal-deep); padding: 110px 0 100px; text-align: center; position: relative; overflow: hidden; }
-    .hero::before, .hero::after { content: ''; position: absolute; border-radius: 50%; border: 1px solid rgba(200,169,110,0.12); top: 50%; left: 50%; transform: translate(-50%,-50%); pointer-events: none; }
+    .hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; border: 1px solid rgba(200,169,110,0.12); top: 50%; left: 50%; transform: translate(-50%,-50%); pointer-events: none; }
     .hero::before { width: 560px; height: 560px; }
-    .hero::after  { width: 820px; height: 820px; }
+    .hero::after { width: 820px; height: 820px; }
     .hero-eyebrow { font-size: 10px; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: var(--gold); margin-bottom: 24px; }
     .hero-name { font-family: var(--serif); font-size: clamp(38px,7vw,68px); font-weight: 300; color: var(--white); line-height: 1.1; letter-spacing: 0.01em; margin-bottom: 18px; }
     .hero-name span { font-style: italic; color: var(--gold-light); }
@@ -62,8 +62,7 @@
     .avatar-wrap--sm { width: 60px; height: 60px; border-radius: 50%; padding: 2.5px; background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%); margin-bottom: 20px; box-shadow: 0 3px 12px rgba(200,169,110,0.22); }
     .avatar--sm { width: 100%; height: 100%; border-radius: 50%; background: linear-gradient(145deg,#d0eaea,#b8d8d8); overflow: hidden; display: flex; align-items: center; justify-content: center; font-family: var(--serif); font-size: 18px; font-weight: 400; font-style: italic; color: var(--teal-deep); }
     .avatar--sm img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; display: block; }
-    .card-quote { font-family: var(--serif); font-size: 17px; font-weight: 400; font-style: italic; color: var(--ink); line-height: 1.65; margin-bottom: 24px; position: relative; }
-    .card-quote::before { content: '\201C'; font-size: 64px; color: var(--gold-light); line-height: 0; position: absolute; top: 16px; left: -12px; font-family: var(--serif); }
+    .card-quote { font-family: var(--serif); font-size: 17px; font-weight: 400; font-style: italic; color: var(--ink); line-height: 1.65; margin-bottom: 24px; position: relative; padding-left: 8px; }
     .card-name { font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--teal-deep); margin-bottom: 4px; }
     .card-role { font-size: 11.5px; font-weight: 300; color: var(--muted); line-height: 1.4; }
     .client-exp { background: var(--teal-light); }
@@ -82,7 +81,7 @@
     .endorse-name { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal-mid); margin-bottom: 2px; }
     .endorse-role { font-size: 11px; font-weight: 300; color: var(--muted); }
     .closing { background: var(--teal-deep); padding: 100px 0; text-align: center; position: relative; overflow: hidden; }
-    .closing::before { content: ''; position: absolute; width: 400px; height: 400px; border-radius: 50%; border: 1px solid rgba(200,169,110,0.1); top: 50%; left: 50%; transform: translate(-50%,-50%); }
+    .closing::before { content: ""; position: absolute; width: 400px; height: 400px; border-radius: 50%; border: 1px solid rgba(200,169,110,0.1); top: 50%; left: 50%; transform: translate(-50%,-50%); }
     .closing-statement { font-family: var(--serif); font-size: clamp(18px,3vw,26px); font-weight: 300; font-style: italic; color: rgba(255,255,255,0.88); max-width: 640px; margin: 0 auto 48px; line-height: 1.65; }
     .cta-btn { display: inline-block; font-family: var(--sans); font-size: 11px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--teal-deep); background: var(--gold); padding: 16px 40px; border-radius: 2px; text-decoration: none; transition: background 0.25s ease, transform 0.2s ease, box-shadow 0.2s ease; position: relative; z-index: 1; }
     .cta-btn:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.25); }
@@ -95,7 +94,6 @@
       :root { --gap: 64px; }
       .testimonial-grid, .endorsement-list { grid-template-columns: 1fr; }
       .hero { padding: 80px 0 72px; }
-      .card-quote::before { display: none; }
     }
   </style>
 </head>
@@ -108,7 +106,7 @@
       <h1 class="hero-name">Aderonke <span>Filani</span></h1>
       <p class="hero-title">Emotional Intelligence &nbsp;&middot;&nbsp; Digital Wellness &nbsp;&middot;&nbsp; Parenting</p>
       <div class="hero-divider"></div>
-      <p class="hero-tagline">"Helping families thrive with emotional intelligence and identity-based transformation."</p>
+      <p class="hero-tagline">Helping families thrive with emotional intelligence and identity-based transformation.</p>
     </div>
   </header>
 
@@ -122,33 +120,27 @@
 
         <div class="testimonial-card fade-in">
           <div class="avatar-wrap">
-            <div class="avatar">
-              <img src="blessing-baker.jpg" alt="Dr. Blessing Baker" />
-            </div>
+            <div class="avatar"><img src="blessing-baker.jpg" alt="Dr. Blessing Baker" /></div>
           </div>
-          <p class="card-quote">People don't just feel heard — they feel understood, grounded, and genuinely cared for.</p>
+          <p class="card-quote">People don&#39;t just feel heard &mdash; they feel understood, grounded, and genuinely cared for.</p>
           <p class="card-name">Dr. Blessing Baker</p>
           <p class="card-role">Medical Doctor &amp; Holistic Health Coach</p>
         </div>
 
         <div class="testimonial-card fade-in" style="transition-delay:0.15s">
           <div class="avatar-wrap">
-            <div class="avatar">
-              <img src="mercy-zechariah.jpg" alt="Mercy Zechariah" />
-            </div>
+            <div class="avatar"><img src="mercy-zechariah.jpg" alt="Mercy Zechariah" /></div>
           </div>
-          <p class="card-quote">She leads with calm strength — and her emotional intelligence elevates every conversation.</p>
+          <p class="card-quote">She leads with calm strength &mdash; and her emotional intelligence elevates every conversation.</p>
           <p class="card-name">Mercy Zechariah</p>
           <p class="card-role">CEO, Arete GLC</p>
         </div>
 
         <div class="testimonial-card fade-in" style="transition-delay:0.30s">
           <div class="avatar-wrap">
-            <div class="avatar">
-              <img src="chidinma-okongwu.jpg" alt="Dr. Chidinma Okongwu" />
-            </div>
+            <div class="avatar"><img src="chidinma-okongwu.jpg" alt="Dr. Chidinma Okongwu" /></div>
           </div>
-          <p class="card-quote">She pays deliberate attention — not just to your words, but to your unspoken cues.</p>
+          <p class="card-quote">She pays deliberate attention &mdash; not just to your words, but to your unspoken cues.</p>
           <p class="card-name">Dr. Chidinma Okongwu</p>
           <p class="card-role">Critical Care Doctor</p>
         </div>
@@ -165,7 +157,7 @@
         <div class="divider"></div>
         <div class="star-row">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
         <blockquote class="client-quote">
-          "The session gave me clarity on my next steps — and practical direction I could apply immediately."
+          The session gave me clarity on my next steps &mdash; and practical direction I could apply immediately.
         </blockquote>
         <p class="client-name">Olufunke Akinyemi &nbsp;&middot;&nbsp; Coaching Client</p>
         <div class="badges">
@@ -188,14 +180,14 @@
         <div class="endorsement-item fade-in">
           <div class="avatar-wrap--sm"><div class="avatar--sm"><img src="ayeni.jpg" alt="Dr. and Mrs. Ayeni" /></div></div>
           <div class="endorse-accent"></div>
-          <p class="endorse-quote">"She helps families navigate complex emotions — and build healthier relationships that last."</p>
+          <p class="endorse-quote">She helps families navigate complex emotions &mdash; and build healthier relationships that last.</p>
           <p class="endorse-name">Dr. &amp; Mrs. Ayeni</p>
         </div>
 
         <div class="endorsement-item fade-in" style="transition-delay:0.10s">
           <div class="avatar-wrap--sm"><div class="avatar--sm"><img src="tolulope-adebayo.jpg" alt="Tolulope Adebayo" /></div></div>
           <div class="endorse-accent"></div>
-          <p class="endorse-quote">"She has an innate ability to rest hearts — with rare, non-judgmental compassion."</p>
+          <p class="endorse-quote">She has an innate ability to rest hearts &mdash; with rare, non-judgmental compassion.</p>
           <p class="endorse-name">Tolulope Adebayo</p>
           <p class="endorse-role">Senior Litigation Lawyer</p>
         </div>
@@ -203,7 +195,7 @@
         <div class="endorsement-item fade-in" style="transition-delay:0.20s">
           <div class="avatar-wrap--sm"><div class="avatar--sm"><img src="olaoluwa-duntoye.jpg" alt="Olaoluwa Duntoye" /></div></div>
           <div class="endorse-accent"></div>
-          <p class="endorse-quote">"She listens deeply — and offers clarity that transforms lives."</p>
+          <p class="endorse-quote">She listens deeply &mdash; and offers clarity that transforms lives.</p>
           <p class="endorse-name">Olaoluwa Duntoye</p>
           <p class="endorse-role">Corporate Governance Attorney</p>
         </div>
@@ -211,7 +203,7 @@
         <div class="endorsement-item fade-in" style="transition-delay:0.30s">
           <div class="avatar-wrap--sm"><div class="avatar--sm"><img src="sonia-mcgurty.jpg" alt="Sonia McGurty" /></div></div>
           <div class="endorse-accent"></div>
-          <p class="endorse-quote">"She's not just a coach — she's a builder."</p>
+          <p class="endorse-quote">She&#39;s not just a coach &mdash; she&#39;s a builder.</p>
           <p class="endorse-name">Sonia McGurty</p>
           <p class="endorse-role">Former Colleague</p>
         </div>
@@ -219,7 +211,7 @@
         <div class="endorsement-item fade-in" style="transition-delay:0.40s">
           <div class="avatar-wrap--sm"><div class="avatar--sm"><img src="veronica-sutherland.jpg" alt="Veronica Sutherland" /></div></div>
           <div class="endorse-accent"></div>
-          <p class="endorse-quote">"She leads with calm authority and shows genuine care in every interaction. Her observations are precise, insightful, and always constructive."</p>
+          <p class="endorse-quote">She leads with calm authority and shows genuine care in every interaction. Her observations are precise, insightful, and always constructive.</p>
           <p class="endorse-name">Veronica Sutherland</p>
           <p class="endorse-role">Christian Premarital &amp; Marriage Coach</p>
         </div>
@@ -227,7 +219,7 @@
         <div class="endorsement-item fade-in" style="transition-delay:0.50s">
           <div class="avatar-wrap--sm"><div class="avatar--sm"><img src="sorhaya-zamor.jpg" alt="Sorhaya Zamor" /></div></div>
           <div class="endorse-accent"></div>
-          <p class="endorse-quote">"She has a natural ability to connect, encourage, and elevate the people around her, providing clarity and support that lasts."</p>
+          <p class="endorse-quote">She has a natural ability to connect, encourage, and elevate the people around her, providing clarity and support that lasts.</p>
           <p class="endorse-name">Sorhaya Zamor</p>
           <p class="endorse-role">Psychiatric Mental Health Nurse &amp; Writer</p>
         </div>
@@ -236,18 +228,18 @@
     </div>
   </section>
 
-  <!-- CLOSING / CTA -->
+  <!-- CLOSING -->
   <section class="closing" id="work-with-me">
     <div class="container">
       <p class="section-label" style="color:var(--gold-light)">Ready to Begin?</p>
       <div class="divider"></div>
       <p class="closing-statement">
-        "Emotional regulation is not just taught — it is embodied. My work helps families become who they are called to be."
+        Emotional regulation is not just taught &mdash; it is embodied. My work helps families become who they are called to be.
       </p>
       <a href="https://stan.store/digitalmannerismhqr" target="_blank" rel="noopener" class="cta-btn">Work With Me</a>
       <div class="closing-contact">
         <p class="closing-contact-label">Or reach out directly</p>
-        <a href="mailto:admin@digitalmannerism.org" class="closing-contact-link">admin&#64;digitalmannerism.org</a>
+        <a href="mailto:admin@digitalmannerism.org" class="closing-contact-link">admin@digitalmannerism.org</a>
       </div>
     </div>
   </section>
@@ -266,7 +258,10 @@
       }
       var io = new IntersectionObserver(function (entries) {
         entries.forEach(function (e) {
-          if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            io.unobserve(e.target);
+          }
         });
       }, { threshold: 0.05 });
       items.forEach(function (el) { io.observe(el); });
