@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d4a4a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a3535;stop-opacity:1" />
+    </linearGradient>
+    <!-- Gold gradient for accents -->
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c8a96e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e8d5a8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8a96e;stop-opacity:1" />
+    </linearGradient>
+    <!-- Subtle radial for depth -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1a6b6b;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#0d4a4a;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Depth glow -->
+  <ellipse cx="600" cy="315" rx="480" ry="300" fill="url(#glow)" />
+
+  <!-- Decorative rings -->
+  <circle cx="600" cy="315" r="380" fill="none" stroke="rgba(200,169,110,0.08)" stroke-width="1"/>
+  <circle cx="600" cy="315" r="490" fill="none" stroke="rgba(200,169,110,0.05)" stroke-width="1"/>
+
+  <!-- Left vertical gold bar -->
+  <rect x="96" y="140" width="2" height="350" fill="url(#gold)" opacity="0.6"/>
+
+  <!-- Top gold line -->
+  <rect x="120" y="140" width="280" height="1" fill="url(#gold)" opacity="0.5"/>
+
+  <!-- EYEBROW label -->
+  <text x="120" y="184" font-family="Georgia, serif" font-size="14" fill="#c8a96e" letter-spacing="4" font-weight="400">FAMILY LIFE COACH</text>
+
+  <!-- Main name -->
+  <text x="116" y="268" font-family="Georgia, serif" font-size="72" fill="#fdfcf9" font-weight="300" font-style="italic" letter-spacing="-1">Aderonke</text>
+  <text x="116" y="348" font-family="Georgia, serif" font-size="72" fill="#e8d5a8" font-weight="300" letter-spacing="-1">Filani</text>
+
+  <!-- Credential -->
+  <text x="120" y="390" font-family="Georgia, serif" font-size="18" fill="rgba(255,255,255,0.5)" letter-spacing="2">M.Ed, Counseling Psychology</text>
+
+  <!-- Gold divider line -->
+  <rect x="120" y="416" width="64" height="1.5" fill="url(#gold)"/>
+
+  <!-- Tagline -->
+  <text x="120" y="452" font-family="Georgia, serif" font-size="17" fill="rgba(255,255,255,0.75)" font-style="italic" letter-spacing="0.5">"Helping families thrive with emotional intelligence</text>
+  <text x="120" y="476" font-family="Georgia, serif" font-size="17" fill="rgba(255,255,255,0.75)" font-style="italic" letter-spacing="0.5">and identity-based transformation."</text>
+
+  <!-- Bottom gold line -->
+  <rect x="120" y="490" width="280" height="1" fill="url(#gold)" opacity="0.5"/>
+
+  <!-- Specialisms on right side -->
+  <g transform="translate(720, 140)">
+
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="380" height="100" rx="3" fill="rgba(255,255,255,0.04)" stroke="rgba(200,169,110,0.2)" stroke-width="1"/>
+    <rect x="0" y="0" width="380" height="2" rx="1" fill="url(#gold)" opacity="0.7"/>
+    <text x="20" y="36" font-family="Georgia, serif" font-size="13" fill="rgba(255,255,255,0.85)" font-style="italic">"People don't just feel heard — they feel understood,</text>
+    <text x="20" y="56" font-family="Georgia, serif" font-size="13" fill="rgba(255,255,255,0.85)" font-style="italic">grounded, and genuinely cared for."</text>
+    <text x="20" y="82" font-family="Arial, sans-serif" font-size="11" fill="#c8a96e" letter-spacing="1.5">DR. BLESSING BAKER</text>
+
+    <!-- Card 2 -->
+    <rect x="0" y="116" width="380" height="100" rx="3" fill="rgba(255,255,255,0.04)" stroke="rgba(200,169,110,0.2)" stroke-width="1"/>
+    <rect x="0" y="116" width="380" height="2" rx="1" fill="url(#gold)" opacity="0.7"/>
+    <text x="20" y="152" font-family="Georgia, serif" font-size="13" fill="rgba(255,255,255,0.85)" font-style="italic">"She leads with calm strength — and her emotional</text>
+    <text x="20" y="172" font-family="Georgia, serif" font-size="13" fill="rgba(255,255,255,0.85)" font-style="italic">intelligence elevates every conversation."</text>
+    <text x="20" y="198" font-family="Arial, sans-serif" font-size="11" fill="#c8a96e" letter-spacing="1.5">MERCY ZECHARIAH · CEO, ARETE GLC</text>
+
+    <!-- Card 3 -->
+    <rect x="0" y="232" width="380" height="100" rx="3" fill="rgba(255,255,255,0.04)" stroke="rgba(200,169,110,0.2)" stroke-width="1"/>
+    <rect x="0" y="232" width="380" height="2" rx="1" fill="url(#gold)" opacity="0.7"/>
+    <text x="20" y="268" font-family="Georgia, serif" font-size="13" fill="rgba(255,255,255,0.85)" font-style="italic">"She pays deliberate attention — not just to your words,</text>
+    <text x="20" y="288" font-family="Georgia, serif" font-size="13" fill="rgba(255,255,255,0.85)" font-style="italic">but to your unspoken cues."</text>
+    <text x="20" y="314" font-family="Arial, sans-serif" font-size="11" fill="#c8a96e" letter-spacing="1.5">DR. CHIDINMA OKONGWU · CRITICAL CARE</text>
+
+    <!-- Bottom tags -->
+    <rect x="0" y="358" width="110" height="28" rx="2" fill="none" stroke="rgba(200,169,110,0.35)" stroke-width="1"/>
+    <text x="55" y="377" font-family="Arial, sans-serif" font-size="10" fill="#c8a96e" text-anchor="middle" letter-spacing="1.5">EMOTIONAL IQ</text>
+
+    <rect x="122" y="358" width="110" height="28" rx="2" fill="none" stroke="rgba(200,169,110,0.35)" stroke-width="1"/>
+    <text x="177" y="377" font-family="Arial, sans-serif" font-size="10" fill="#c8a96e" text-anchor="middle" letter-spacing="1.5">DIGITAL WELLNESS</text>
+
+    <rect x="244" y="358" width="136" height="28" rx="2" fill="none" stroke="rgba(200,169,110,0.35)" stroke-width="1"/>
+    <text x="312" y="377" font-family="Arial, sans-serif" font-size="10" fill="#c8a96e" text-anchor="middle" letter-spacing="1.5">FAMILY COACHING</text>
+
+  </g>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="590" width="1200" height="40" fill="rgba(0,0,0,0.2)"/>
+  <text x="600" y="614" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)" text-anchor="middle" letter-spacing="3">DIGITALMANNERISM.ORG · ADMIN@DIGITALMANNERISM.ORG</text>
+</svg>
